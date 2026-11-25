@@ -112,8 +112,8 @@ Runtime directories such as `documents/`, `chroma_db/`, and `venv/` are created 
 ### 1. Clone the repository
 
 ```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd entaura-mini
+git clone https://github.com/misab-abdul-rashid/mini-entaura.git
+cd mini-entaura
 ```
 
 ### 2. Create and activate a virtual environment
