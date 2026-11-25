@@ -49,15 +49,15 @@ flowchart TD
 
 ### Dashboard
 
-<img width="1896" height="908" alt="dashboard" src="https://github.com/user-attachments/assets/6b0a94ec-27bb-47f7-ac62-c8c832c4cf31" />
+![image alt](https://github.com/misab-abdul-rashid/mini-entaura/blob/954f5c2db39bc669f3bcb3d13b8663c5a84b20f4/dashboard.png)
 
 ### Document Management
 
-<img width="1907" height="904" alt="document-management" src="https://github.com/user-attachments/assets/193b310e-0b79-409d-a2b9-ab48cfc354cb" />
+![image alt](https://github.com/misab-abdul-rashid/mini-entaura/blob/954f5c2db39bc669f3bcb3d13b8663c5a84b20f4/dashboard.png)
 
 ### RAG Question Answering
 
-!<img width="1901" height="895" alt="rag-answer" src="https://github.com/user-attachments/assets/db0efa28-f972-4674-8a28-13d337cb786c" />
+![image alt](https://github.com/misab-abdul-rashid/mini-entaura/blob/954f5c2db39bc669f3bcb3d13b8663c5a84b20f4/dashboard.png)
 
 
 ## Technology Stack
