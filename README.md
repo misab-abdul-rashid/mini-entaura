@@ -20,47 +20,30 @@ The application retrieves relevant information from uploaded documents and uses 
 - **Edge-case testing:** Test paraphrased, unsupported, and other challenging questions.
 
 ## Architecture
+```mermaid
+flowchart TD
+    A["PDF / TXT Documents"] --> B["Text Extraction"]
+    B --> C["Text Chunking"]
+    C --> D["Gemini Embeddings"]
+    D --> E[("ChromaDB Vector Store")]
 
-```text
-                 PDF / TXT Documents
-                         |
-                         v
-                  Text Extraction
-                         |
-                         v
-                    Text Chunking
-                         |
-                         v
-                  Gemini Embeddings
-                         |
-                         v
-                      ChromaDB
-                    (Vector Store)
+    F["User Question"] --> G["Query Embedding"]
+    G --> H["Similarity Search"]
+    E --> H
+    H --> I["Similarity Filtering"]
+    I --> J["Relevant Context"]
+    J --> K["Gemini LLM"]
+    K --> L["Answer with Source Citations"]
 
-
-User Question
-      |
-      v
-Gemini Query Embedding
-      |
-      v
-ChromaDB Similarity Search
-      |
-      v
-Relevant Document Chunks
-      |
-      v
-Similarity Filtering / Optional MMR
-      |
-      v
-Gemini LLM
-      |
-      v
-Answer with Source Citations
+    M[("PostgreSQL")] --- N["Document Metadata"]
+    O["Streamlit Interface"] --> A
+    O --> F
+    O --> P["Document Management"]
+    P --> E
+    P --> M
+```
 
 
-PostgreSQL: Document metadata and processing status
-Streamlit: User interface
 ```
 
 ## Technology Stack
