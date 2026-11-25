@@ -53,11 +53,11 @@ flowchart TD
 
 ### Document Management
 
-![image alt]([https://github.com/misab-abdul-rashid/mini-entaura/blob/954f5c2db39bc669f3bcb3d13b8663c5a84b20f4/dashboard.png](https://github.com/misab-abdul-rashid/mini-entaura/blob/bd3f07c4c74110d6562fdc2036854e4438dc46f1/document-management.png))
+![image alt](https://github.com/misab-abdul-rashid/mini-entaura/blob/bd3f07c4c74110d6562fdc2036854e4438dc46f1/document-management.png))
 
 ### RAG Question Answering
 
-![image alt]([https://github.com/misab-abdul-rashid/mini-entaura/blob/954f5c2db39bc669f3bcb3d13b8663c5a84b20f4/dashboard.png](https://github.com/misab-abdul-rashid/mini-entaura/blob/bd3f07c4c74110d6562fdc2036854e4438dc46f1/rag-answer.png))
+![image alt](https://github.com/misab-abdul-rashid/mini-entaura/blob/bd3f07c4c74110d6562fdc2036854e4438dc46f1/rag-answer.png))
 
 
 ## Technology Stack
