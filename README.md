@@ -48,13 +48,18 @@ flowchart TD
 ## Application Screenshots
 
 ### Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
 ### Document Management
+
 ![Document Management](screenshots/document-management.png)
 
 ### RAG Question Answering
+
 ![RAG Answer](screenshots/rag-answer.png)
+
+
 ## Technology Stack
 
 | Component | Technology |
