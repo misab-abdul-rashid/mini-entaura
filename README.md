@@ -44,7 +44,7 @@ flowchart TD
 ```
 
 
-```
+
 ## Application Screenshots
 
 ### Dashboard
