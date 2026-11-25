@@ -49,15 +49,15 @@ flowchart TD
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+<img width="1896" height="908" alt="dashboard" src="https://github.com/user-attachments/assets/6b0a94ec-27bb-47f7-ac62-c8c832c4cf31" />
 
 ### Document Management
 
-![Document Management](screenshots/document-management.png)
+<img width="1907" height="904" alt="document-management" src="https://github.com/user-attachments/assets/193b310e-0b79-409d-a2b9-ab48cfc354cb" />
 
 ### RAG Question Answering
 
-![RAG Answer](screenshots/rag-answer.png)
+!<img width="1901" height="895" alt="rag-answer" src="https://github.com/user-attachments/assets/db0efa28-f972-4674-8a28-13d337cb786c" />
 
 
 ## Technology Stack
